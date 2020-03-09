@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp">
+
+
+        <TextView
+            android:background="@drawable/buttonslec"
+            android:id="@+id/btncity2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"/>
+
+        <TableLayout
+            android:stretchColumns="1">
+
+            <TableRow
+                android:background="@drawable/buttonslec"
+                android:padding="10dp">
+                <TextView
+                    android:id="@+id/loc"
+                    android:text="@string/location"
+                    android:textSize="13sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/textloc"
+                    android:textSize="13sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonslec">
+                <TextView
+                    android:id="@+id/date"
+                    android:text="@string/date"
+                    android:textSize="13sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/textdate"
+                    android:textSize="13sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </TableRow>
+
+        </TableLayout>
+
+        <TextView
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/prayer_time"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:background="@drawable/buttonslec"/>
+
+        <TableLayout
+            android:layout_width="369dp"
+            android:layout_height="wrap_content">
+
+            <TableRow android:background="@drawable/buttonslec">
+
+                <TextView
+                    android:id="@+id/subuh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/subuh"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/textsubuh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="120dp"
+                    android:layout_marginLeft="120dp"
+                    android:textSize="13sp"/>
+            </TableRow>
+
+            <TableRow android:background="@drawable/buttonslec">
+
+                <TextView
+                    android:id="@+id/dzuhur"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dzuhur"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/textdzh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="110dp"
+                    android:layout_marginLeft="110dp"
+                    android:textSize="13sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/buttonslec">
+
+                <TextView
+                    android:id="@+id/ashar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ashar"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/textash"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="120dp"
+                    android:layout_marginLeft="120dp"
+                    android:textSize="13sp" />
+            </TableRow>
+
+            <TableRow android:background="@drawable/buttonslec">
+
+                <TextView
+                    android:id="@+id/magrib"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/maghrib"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/textmgh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="120dp"
+                    android:layout_marginLeft="120dp"
+                    android:textSize="13sp" />
+            </TableRow>
+
+            <TableRow android:background="@drawable/buttonslec">
+
+                <TextView
+                    android:id="@+id/isya"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/isya"
+                    android:textSize="13sp"/>
+
+                <TextView
+                    android:id="@+id/textisy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="120dp"
+                    android:layout_marginLeft="120dp"
+                    android:textSize="13sp" />
+            </TableRow>
+        </TableLayout>
+    </TableLayout>
+
+</RelativeLayout>
